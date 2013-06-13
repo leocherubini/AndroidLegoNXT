@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/txTexto1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Conectar" />
+
+    <Button
+        android:id="@+id/btConectar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="Conectar" />
+
+    <Button
+        android:id="@+id/btDireita"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/btCima"
+        android:layout_toRightOf="@+id/btCima"
+        android:text="d" />
+
+    <Button
+        android:id="@+id/btEsquerda"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignBaseline="@+id/btDireita"
+        android:layout_alignBottom="@+id/btDireita"
+        android:layout_toLeftOf="@+id/btCima"
+        android:text="a" />
+
+    <Button
+        android:id="@+id/btBaixo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/btEsquerda"
+        android:layout_toRightOf="@+id/btEsquerda"
+        android:text="s" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/seekBar1"
+        android:layout_alignLeft="@+id/seekBar1"
+        android:text="Velocidade:" />
+
+    <SeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btConectar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp" />
+
+    <Button
+        android:id="@+id/btCima"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/txTexto1"
+        android:layout_centerHorizontal="true"
+        android:text="w" />
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sensores</string>
+    <string name="acc_value1">0</string>
+    <string name="acc_value2">0</string>
+    <string name="acc_value3">0</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+
+</resources>
